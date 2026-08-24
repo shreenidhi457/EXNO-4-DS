@@ -93,6 +93,7 @@ df3=pd.read_csv("/content/bmi.csv")
 
 
 ~~~
+
 <img width="1918" height="1027" alt="Screenshot 2026-08-24 152824" src="https://github.com/user-attachments/assets/4b6fd4e5-b2b5-4eaa-9bf0-58bef8078f6e" />
 ~~~
 
