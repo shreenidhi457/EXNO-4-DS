@@ -42,7 +42,7 @@ df.head()
 
 
 <img width="1919" height="1026" alt="Screenshot 2026-08-24 152736" src="https://github.com/user-attachments/assets/9f9cfd51-8ad0-4c46-af9f-88db2d345b16" />
-attachments/assets/4a403edf-c641-422a-a684-52096b15b688" />
+
 
 
 ~~~
