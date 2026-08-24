@@ -121,26 +121,7 @@ df4.head()
 
 
 <img width="1919" height="840" alt="Screenshot 2026-08-24 152838" src="https://github.com/user-attachments/assets/096f83fe-54cc-4164-8199-b0dccd27a1c8" />
-~~~
-tips.head()
-~~~
-
-
-
-~~~
-contingency_table=pd.crosstab(tips['sex'],tips['time'])
-print(contingency_table)
-~~~
-
-
-
-~~~
-chi2,p,_,_=chi2_contingency(contingency_table)
-print(f"Chi-Square Statistic:{chi2}")
-print(f"p-value:{p}")
-~~~
-
-<img width="1674" height="627" alt="Screenshot 2026-08-24 153859" src="https://github.com/user-attachments/assets/d8aaa027-755f-4629-94f6-aff11323a3fe" />
+aa027-755f-4629-94f6-aff11323a3fe" />
 
 
 
@@ -207,6 +188,27 @@ df['Age'].fillna(method='ffill')
 
 
 <img width="1917" height="1010" alt="Screenshot 2026-08-24 152858" src="https://github.com/user-attachments/assets/0e956fa7-afce-4acb-9d90-7cf86cdc72fa" />
+
+~~~
+tips.head()
+~~~
+
+
+
+~~~
+contingency_table=pd.crosstab(tips['sex'],tips['time'])
+print(contingency_table)
+~~~
+
+
+
+~~~
+chi2,p,_,_=chi2_contingency(contingency_table)
+print(f"Chi-Square Statistic:{chi2}")
+print(f"p-value:{p}")
+~~~
+
+<img width="1674" height="627" alt="Screenshot 2026-08-24 153859" src="https://github.com/user-attachments/assets/d8a
 
 ~~~
 import pandas as pd
