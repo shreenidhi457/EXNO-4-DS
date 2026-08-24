@@ -139,6 +139,7 @@ chi2,p,_,_=chi2_contingency(contingency_table)
 print(f"Chi-Square Statistic:{chi2}")
 print(f"p-value:{p}")
 ~~~
+
 <img width="1674" height="627" alt="Screenshot 2026-08-24 153859" src="https://github.com/user-attachments/assets/d8aaa027-755f-4629-94f6-aff11323a3fe" />
 
 ~~~
