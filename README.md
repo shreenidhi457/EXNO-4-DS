@@ -142,7 +142,7 @@ print(f"p-value:{p}")
 
 <img width="1674" height="627" alt="Screenshot 2026-08-24 153859" src="https://github.com/user-attachments/assets/d8aaa027-755f-4629-94f6-aff11323a3fe" />
 
-~~~
+
 
 ~~~
 import pandas as pd
@@ -208,7 +208,7 @@ df['Age'].fillna(method='ffill')
 
 <img width="1917" height="1010" alt="Screenshot 2026-08-24 152858" src="https://github.com/user-attachments/assets/0e956fa7-afce-4acb-9d90-7cf86cdc72fa" />
 
-
+~~~
 import pandas as pd
 from sklearn.feature_selection import SelectKBest,mutual_info_classif
 data={
