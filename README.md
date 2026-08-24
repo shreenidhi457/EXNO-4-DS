@@ -163,22 +163,22 @@ y=df["Survived"]
 
 
 ~~~
-df1=df.drop(["Name","Sex","Ticket","Cabin","Embarked"],axis=1)
+df=df.drop(["Name","Sex","Ticket","Cabin","Embarked"],axis=1)
 ~~~
 
 
 ~~~
-df1.columns
+df.columns
 ~~~
 
 
 ~~~
-df1['Age'].isnull().sum()
+df['Age'].isnull().sum()
 ~~~
 
 
 ~~~
-df1['Age'].fillna(method='ffill')
+df['Age'].fillna(method='ffill')
 ~~~
 
 
@@ -202,7 +202,7 @@ chi2,p,_,_=chi2_contingency(contingency_table)
 print(f"Chi-Square Statistic:{chi2}")
 print(f"p-value:{p}")
 ~~~
-<img width="1919" height="908" alt="Screenshot 2026-08-24 152918" src="https://github.com/user-attachments/assets/ddb8647d-6193-4dd6-9766-d2f4750bc5f8" />
+<img width="1674" height="627" alt="Screenshot 2026-08-24 153859" src="https://github.com/user-attachments/assets/d8aaa027-755f-4629-94f6-aff11323a3fe" />
 
 ~~~
 import pandas as pd
