@@ -158,9 +158,6 @@ df.columns
 df.shape
 ~~~
 
-
-
-<img width="1919" height="1022" alt="Screenshot 2026-08-24 155747" src="https://github.com/user-attachments/assets/5d0aaef3-7dca-479c-8c16-409a491c712d" />
 ~~~
 x=df.drop("Survived",axis=1)
 y=df["Survived"]
@@ -188,7 +185,8 @@ df1['Age'].fillna(method='ffill')
 
 
 
-<img width="1914" height="954" alt="Screenshot 2026-08-24 155758" src="https://github.com/user-attachments/assets/0f884caa-90bd-4947-b849-0267cb9f1566" />
+<img width="1919" height="1022" alt="Screenshot 2026-08-24 155747" src="https://github.com/user-attachments/assets/5d0aaef3-7dca-479c-8c16-409a491c712d" />
+
 
 ~~~
 df1['Age']=df1['Age'].fillna(method='ffill')
@@ -215,7 +213,7 @@ import seaborn as sns
 tips=sns.load_dataset('tips')
 ~~~
 
-<img width="1919" height="974" alt="Screenshot 2026-08-24 155814" src="https://github.com/user-attachments/assets/66d1248d-a5bf-4609-8d40-da6de3b31532" />
+<img width="1914" height="954" alt="Screenshot 2026-08-24 155758" src="https://github.com/user-attachments/assets/0f884caa-90bd-4947-b849-0267cb9f1566" />
 
 ~~~
 tips.head()
@@ -236,8 +234,7 @@ print(f"Chi-Square Statistic:{chi2}")
 print(f"p-value:{p}")
 ~~~
 
-<img width="1386" height="861" alt="Screenshot 2026-08-24 155823" src="https://github.com/user-attachments/assets/e715990f-6e24-4735-9d24-5e581e8c83e5" />
-
+<img width="1919" height="974" alt="Screenshot 2026-08-24 155814" src="https://github.com/user-attachments/assets/66d1248d-a5bf-4609-8d40-da6de3b31532" />
 
 ~~~
 import pandas as pd
@@ -265,5 +262,9 @@ print(selected_features)
 ~~~
 
 
+
+
+
+<img width="1386" height="861" alt="Screenshot 2026-08-24 155823" src="https://github.com/user-attachments/assets/e715990f-6e24-4735-9d24-5e581e8c83e5" />
 
 
