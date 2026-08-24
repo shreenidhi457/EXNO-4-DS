@@ -99,7 +99,7 @@ df3=pd.read_csv("/content/bmi.csv")
 
 
 ~~~
-df3
+df
 ~~~
 
 
