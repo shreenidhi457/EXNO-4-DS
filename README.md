@@ -121,7 +121,6 @@ df4.head()
 
 
 <img width="1919" height="840" alt="Screenshot 2026-08-24 152838" src="https://github.com/user-attachments/assets/096f83fe-54cc-4164-8199-b0dccd27a1c8" />
-aa027-755f-4629-94f6-aff11323a3fe" />
 
 
 
