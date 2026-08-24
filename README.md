@@ -159,8 +159,8 @@ df.shape
 ~~~
 
 
-<img width="1914" height="938" alt="Screenshot 2026-08-24 152849" src="https://github.com/user-attachments/assets/28641fe6-0379-4383-99b6-64fb05d05864" />
 
+<img width="1919" height="1022" alt="Screenshot 2026-08-24 155747" src="https://github.com/user-attachments/assets/5d0aaef3-7dca-479c-8c16-409a491c712d" />
 ~~~
 x=df.drop("Survived",axis=1)
 y=df["Survived"]
@@ -168,26 +168,54 @@ y=df["Survived"]
 
 
 ~~~
-df=df.drop(["Name","Sex","Ticket","Cabin","Embarked"],axis=1)
+df1=df.drop(["Name","Sex","Ticket","Cabin","Embarked"],axis=1)
 ~~~
 
 
 ~~~
-df.columns
+df1.columns
 ~~~
 
 
 ~~~
-df['Age'].isnull().sum()
+df1['Age'].isnull().sum()
 ~~~
 
 
 ~~~
-df['Age'].fillna(method='ffill')
+df1['Age'].fillna(method='ffill')
 ~~~
 
 
-<img width="1917" height="1010" alt="Screenshot 2026-08-24 152858" src="https://github.com/user-attachments/assets/0e956fa7-afce-4acb-9d90-7cf86cdc72fa" />
+
+<img width="1914" height="954" alt="Screenshot 2026-08-24 155758" src="https://github.com/user-attachments/assets/0f884caa-90bd-4947-b849-0267cb9f1566" />
+
+~~~
+df1['Age']=df1['Age'].fillna(method='ffill')
+~~~
+
+
+
+~~~
+df1['Age'].isnull().sum()
+~~~
+
+
+
+~~~
+import pandas as pd
+import numpy as np
+from scipy.stats import chi2_contingency
+~~~
+
+
+
+~~~
+import seaborn as sns
+tips=sns.load_dataset('tips')
+~~~
+
+<img width="1919" height="974" alt="Screenshot 2026-08-24 155814" src="https://github.com/user-attachments/assets/66d1248d-a5bf-4609-8d40-da6de3b31532" />
 
 ~~~
 tips.head()
@@ -208,7 +236,8 @@ print(f"Chi-Square Statistic:{chi2}")
 print(f"p-value:{p}")
 ~~~
 
-<img width="1674" height="627" alt="Screenshot 2026-08-24 153859" src="https://github.com/user-attachments/assets/d8a
+<img width="1386" height="861" alt="Screenshot 2026-08-24 155823" src="https://github.com/user-attachments/assets/e715990f-6e24-4735-9d24-5e581e8c83e5" />
+
 
 ~~~
 import pandas as pd
@@ -235,12 +264,6 @@ print("Selected Features:")
 print(selected_features)
 ~~~
 
-<img width="1919" height="868" alt="Screenshot 2026-08-24 152927" src="https://github.com/user-attachments/assets/d94e2824-3392-4111-8945-a4a6bc55fbee" />
-
-<img width="1919" height="692" alt="Screenshot 2026-08-24 152940" src="https://github.com/user-attachments/assets/48b26524-0c9f-46ac-bd18-7dfdee451894" />
-
-<img width="1911" height="895" alt="Screenshot 2026-08-24 152949" src="https://github.com/user-attachments/assets/53d51e45-6ac2-4ec9-9be5-6ad644ec8b63" />
 
 
-# RESULT:
-       # INCLUDE YOUR RESULT HERE
+
